@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok Restaurant | Premium Dining</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #faf8f5; color: #333; }
+        header { background: linear-gradient(135deg, #ff6b6b, #e64a19); color: white; padding: 40px 20px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        header h1 { margin: 0; font-size: 3em; text-transform: uppercase; letter-spacing: 2px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        header p { margin: 10px 0 0 0; font-style: italic; font-size: 1.2em; opacity: 0.9; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+        .section { background: white; padding: 30px; margin-bottom: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #e64a19; border-bottom: 2px solid #ff6b6b; padding-bottom: 8px; margin-top: 0; }
+        .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+        .menu-item { border: 1px solid #eee; padding: 15px; border-radius: 8px; background: #fffcf9; transition: transform 0.2s; }
+        .menu-item:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .menu-item h3 { margin: 0 0 8px 0; color: #333; display: flex; justify-content: space-between; }
+        .price { color: #e64a19; font-weight: bold; }
+        .menu-item p { margin: 0; color: #666; font-size: 0.9em; }
+        footer { text-align: center; padding: 25px; background: #333; color: white; font-size: 0.9em; margin-top: 50px; }
+        .live-tag { background: #4caf50; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.8em; vertical-align: middle; display: inline-block; margin-left: 10px; font-weight: bold; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { opacity: 0.6; } 50% { opacity: 1; } 100% { opacity: 0.6; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍽️ Alok Restaurant <span class="live-tag">DOCKER LIVE</span></h1>
+        <p>A Taste of Tradition, Crafted for Food Lovers</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>✨ Welcome to Alok's Premium Kitchen</h2>
+            <p>Humare yahan aapko milega bilkul shuddh aur swadist khana, jo fresh ingredients se banaya jata hai. Docker Container ke andar deploy ki gayi yeh website humari speed aur zero-downtime performance ko pakka karti hai!</p>
+        </div>
+
+        <div class="section">
+            <h2>📖 Today's Special Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3><span>🍲 Shahi Paneer Special</span> <span class="price">₹280</span></h3>
+                    <p>Rich creamy gravy cooked with premium cottage cheese and secret Indian spices.</p>
+                </div>
+                <div class="menu-item">
+                    <h3><span>🫓 Butter Naan (Clay Oven)</span> <span class="price">₹50</span></h3>
+                    <p>Soft tandoori flatbread topped with pure Amul butter.</p>
+                </div>
+                <div class="menu-item">
+                    <h3><span>🍚 Dum Handi Biryani</span> <span class="price">₹320</span></h3>
+                    <p>Fragrant basmati rice layered with marinated vegetables and slow-cooked over charcoal.</p>
+                </div>
+                <div class="menu-item">
+                    <h3><span>🍨 Gulab Jamun with Ice Cream</span> <span class="price">₹120</span></h3>
+                    <p>Hot, juicy sweet dumplings served with a scoop of premium vanilla ice cream.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📍 Address & Reservations</h2>
+            <p><strong>Location:</strong> Main Market, Production Street, Cloud City</p>
+            <p><strong>Timing:</strong> 11:00 AM to 11:00 PM</p>
+            <p><strong>For Booking:</strong> Call us at +91 9876543210 or order via our online portal.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Alok Restaurant. Powered & Containerized completely by Docker Infrastructure.</p>
+    </footer>
+
+</body>
+</html>
